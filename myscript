@@ -1,0 +1,26 @@
+#test box mesh
+ident
+rotate
+x -90
+rotate
+y -90
+move
+150 150 100
+torus
+0 0 0 25 50
+torus
+0 250 0 25 50
+torus
+200 250 0 25 50
+torus
+200 0 0 25 50
+box
+0 0 0 200 250 175
+rotate
+z 20
+rotate
+y 65
+apply
+display
+save
+pic.png

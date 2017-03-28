@@ -1,8 +1,7 @@
-#Winston Venderbush
 
-PYTHON = python
+run: main.py display.py draw.py matrix.py parser.py
+	python main.py
 
-all: main.py
-	$(PYTHON) main.py
-
-run: all
+clean:
+	rm *.pyc
+	rm *~
